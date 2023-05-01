@@ -1,14 +1,10 @@
-
 import { showAddbook, showContact, showList } from './modules/navBar_controls.js';
 import BookList from './modules/BookListClass.js';
+import getDate from './modules/date.js';
 
 const myBookList = new BookList();
 myBookList.initialize();
-
-const currentDate = new Date().toLocaleString('default', {
-  month: 'long', year: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true,
-});
-document.getElementById('date').innerHTML = currentDate;
+setInterval(getDate, 1000);
 
 // nav controls
 

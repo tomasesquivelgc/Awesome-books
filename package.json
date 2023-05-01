@@ -20,7 +20,9 @@
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "luxon": "^3.3.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tomasesquivelgc/Awesome-books.git"
