@@ -1,9 +1,5 @@
 # Awesome-Books
 
-First steps to creating a page week that stores all books that usury indicates and so have a personal library!
-
-Will have future changes in the next days! 
-
 <a name="readme-top"></a>
 
 
@@ -125,7 +121,8 @@ Work in progress.
 
 ### Deployment
 
-I use Githud pages for the deployment of this web page.
+This project has been deployed with the use of GitHub pages.
+To deploy this project yourself, you can clone this repo and use GitHub pages as well.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,7 +149,7 @@ I use Githud pages for the deployment of this web page.
 - [ ] Better funcionality.
 - [ ] More Imagen and maybe some videos.
 - [x] Desktop version
-- [ ] Javascript format
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -181,21 +178,6 @@ If you like this project just keep an eye on the changes that I will bring over 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank to my family and God for the opportunities to always improve despite adversity, my girlfriend and friends for being there for me, and Microverse for providing a platform to achieve this goal.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## ❓ FAQ <a name="faq"></a>
-
-
-- Will you leave the repo open forever?
-
-  - Yes! until Github ceases to exist.
-
-- Do I need permission from you to use this repo?
-
-  - No, it is completely free for everyone who wants to use it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -1,7 +1,7 @@
 {
   "name": "awesome-books",
   "version": "1.0.0",
-  "description": "",
+  "description": "Creating a personal library of books, handled with modules and localStorage data",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,16 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
-  }
+  },
+  "dependencies": {
+    "luxon": "^3.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasesquivelgc/Awesome-books.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomasesquivelgc/Awesome-books/issues"
+  },
+  "homepage": "https://github.com/tomasesquivelgc/Awesome-books#readme"
 }
