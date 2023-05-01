@@ -1,4 +1,5 @@
 // class for Awesome books
+import { showAddbook, showContact, showList } from './modules/navBar_controls.js';
 
 class BookList {
   constructor() {
@@ -71,28 +72,6 @@ document.getElementById('date').innerHTML = currentDate;
 const listNav = document.getElementById('list-page');
 const addNewNav = document.getElementById('add-list');
 const contactNav = document.getElementById('conctact-list');
-
-const booklistSection = document.getElementById('landing-page');
-const addbookSection = document.getElementById('add-book');
-const contactSection = document.getElementById('contact-section');
-
-const showList = () => {
-  booklistSection.classList.remove('hide');
-  addbookSection.classList.add('hide');
-  contactSection.classList.add('hide');
-};
-
-const showAddbook = () => {
-  booklistSection.classList.add('hide');
-  addbookSection.classList.remove('hide');
-  contactSection.classList.add('hide');
-};
-
-const showContact = () => {
-  booklistSection.classList.add('hide');
-  addbookSection.classList.add('hide');
-  contactSection.classList.remove('hide');
-};
 
 listNav.addEventListener('click', showList);
 addNewNav.addEventListener('click', showAddbook);
