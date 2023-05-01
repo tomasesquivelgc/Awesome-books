@@ -1,3 +1,10 @@
+class Book {
+    constructor(title, author) {
+        this.title = title;
+        this.author = author;
+    }
+}
+
 class BookList {
     constructor() {
       this.bookList = [];
@@ -28,10 +35,7 @@ class BookList {
     }
   
     addBook() {
-      const newObj = {
-        title: this.title.value,
-        author: this.author.value,
-      };
+      const newObj = new Book(this.title.value, this.author.value);
       this.bookList.push(newObj);
       localStorage.setItem('data', JSON.stringify(this.bookList));
       this.printBooks();
