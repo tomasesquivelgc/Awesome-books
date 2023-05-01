@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;900&family=Poppins&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 24px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #1f2328;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+.list:hover {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.content-position {
+  padding: 5vw;
+}
+
+/* -----navbar */
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  justify-content: space-between;
+  padding: 0.5rem 2%;
+  margin: 1% 1% 0;
+  border: 4px solid #1f2328;
+}
+
+.logo {
+  font-weight: 700;
+}
+
+.nav-option {
+  gap: 1.2vw;
+}
+
+.navSpan {
+  border: 1px solid #1f2328;
+  height: 1.4rem;
+  background: #1f2328;
+}
+
+/* ----Main page */
+
+.addBttn,
+.removeBttn {
+  padding: 0.3rem;
+  background: #fff;
+  border: 4px solid;
+}
+
+.addBttn {
+  align-self: flex-end;
+}
+
+.bookList {
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  height: 70vh;
+  margin: 1%;
+  overflow: scroll;
+}
+
+.mainTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.bookList-container {
+  width: 100%;
+  border: 4px solid #020202;
+}
+
+.shelfBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.shelfBox:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.book-title-box {
+  display: flex;
+  gap: 0.3rem;
+}
+
+/* ------Add new book */
+
+.addNew-book {
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  height: 70vh;
+  margin: 1%;
+}
+
+.bookForm {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.bookForm label {
+  border: 4px solid #020202;
+}
+
+label input {
+  width: 30vw;
+}
+
+/* -----Footer */
+
+.footer {
+  gap: 1rem;
+  border: 4px solid #1f2328;
+  margin: 0 1% 1%;
+  padding: 0.5rem 2%;
+}
+
+/* ----contact */
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  height: 70vh;
+}
+
+#contact ul li {
+  list-style: inside;
+}
+
+#date {
+  margin: 1%;
+  align-self: flex-end;
+}
+
+.contact-info {
+  flex-direction: column;
+  gap: 2rem;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar flex">
+            <h2><a class="logo" href="#">Awesome Books</a></h2>
+
+            <ul class="nav-option flex">
+                <li class="list"><a id="list-page">List</a></li>
+                <span class="navSpan"></span>
+                <li class="list"><a id="add-list">Add new</a></li>
+                <span class="navSpan"></span>
+                <li class="list"><a id="conctact-list">Contact</a></li>
+            </ul>
+        </nav>
+        <p id="date"></p>
+    </header>
+
+    <section class="" id="landing-page">
+        <div class="bookList flex">
+            <h1 class="mainTitle">All awesome books</h1>
+            <div class="bookList-container"></div>
+        </div>
+    </section>
+
+    <section class="hide" id="add-book">
+        <div class="addNew-book flex">
+            <h2 class="mainTitle">Add a new book</h2>
+            <form action="https://formspree.io/f/mrgvrokn" class="bookForm flex content-position" method="post">
+                <label for="Title">
+                    <input class="book-title" type="text" name="Title" placeholder="  Title" required>
+                </label>
+                <label for="Author">
+                    <input class="book-author" type="text" name="Author" placeholder="  Authors" required>
+                </label>
+                <input type="button" class="addBttn" value="Add">
+            </form>
+        </div>
+    </section>
+
+    <section class="hide" id="contact-section"> 
+        <div id="contact">
+            <h2 class="mainTitle">Contact information</h2>
+            <div class="contact-info content-position flex">
+                <p>Do you have any questions or you just want to say "Hello"?<br>You can reach out to us!</p>
+                <address>
+                    <ul>
+                        <li>Our email: mail@mail.com</li>
+                        <li>Our phone number: 00465758745575</li>
+                        <li>Our adress: Streetname 22, 84504 City Country</li>
+                    </ul>
+                </address>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer flex">
+        <h2>Copyright</h2>
+        <p>...</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
