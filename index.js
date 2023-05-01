@@ -1,4 +1,4 @@
-// class for Awesome books
+
 import { showAddbook, showContact, showList } from './modules/navBar_controls.js';
 import BookList from './modules/BookListClass.js';
 
