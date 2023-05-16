@@ -5,7 +5,7 @@
 
 <div align="center">
 
-  <h3 id="title"><b>Module 1 Capstone!</b></h3>
+  <h3 id="title"><b>Awesome Books</b></h3>
 
 </div>
 
@@ -69,14 +69,14 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<p> You can see the page <a href="https://enmanuelbayen.github.io/Awesome-Books/" target="_blank" rel="noopener noreferrer"> here!</a> </p>  
+<p> You can see the page <a href=https://tomasesquivelgc.github.io/Awesome-books/" target="_blank" rel="noopener noreferrer"> here!</a> </p>  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> This is the first step in the creation of my project so there is not much yet, but it will grow!
+
 
 To get a local copy up and running, follow these steps.
 
@@ -84,7 +84,7 @@ To get a local copy up and running, follow these steps.
 
 1 Web browser <br>
 2 Code editor   <br>
-3 git-github<br>
+3 git/github<br>
 
 ### Setup
 
@@ -111,7 +111,6 @@ Run command:
 
 ### Usage
 
-To run the project, execute the following command:
 
 Open index.html using live server extension.
 
@@ -139,15 +138,15 @@ To deploy this project yourself, you can clone this repo and use GitHub pages as
 👤 **Tomas Esquivel**
 
 - GitHub: [@tomasesquivelgc](https://github.com/tomasesquivelgc)
+- Twitter: [@EsquivelTomas](https://twitter.com/EsquivelTomas)
+- Linkedin: [tomasesquivel](https://www.linkedin.com/in/tomas-esquivel-b2160568/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] More designs and styles!
-- [ ] Better funcionality.
-- [ ] More Imagen and maybe some videos.
+- [x] Better funcionality.
 - [x] Desktop version
 
 
@@ -158,7 +157,7 @@ To deploy this project yourself, you can clone this repo and use GitHub pages as
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome! Will help me a lot to improve my coding skills.
+This project was possible with the help of [@enmanuelbayen](https://github.com/enmanuelbayen) and the Microverse team.
 
 Feel free to check the [issues page](https://github.com/enmanuelbayen/Awesome-Books/issues).
 
@@ -169,7 +168,7 @@ Feel free to check the [issues page](https://github.com/enmanuelbayen/Awesome-Bo
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project just keep an eye on the changes that I will bring over time, having an audience on this journey is enough support!
+If you like this project give it a star! It helps boost future projects.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
