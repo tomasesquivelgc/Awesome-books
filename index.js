@@ -4,7 +4,7 @@ import getDate from './modules/date.js';
 
 const myBookList = new BookList();
 myBookList.initialize();
-setInterval(getDate, 1000);
+
 
 // nav controls
 
@@ -15,3 +15,4 @@ const contactNav = document.getElementById('conctact-list');
 listNav.addEventListener('click', showList);
 addNewNav.addEventListener('click', showAddbook);
 contactNav.addEventListener('click', showContact);
+setInterval(getDate, 1000);
