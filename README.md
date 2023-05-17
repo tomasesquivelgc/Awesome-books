@@ -37,7 +37,7 @@
 
 # 📖 Awesome books!  <a name="about-project"></a>
 
-> Here you can save the names of your books and their authors in a list that you can then share with your acquaintances!
+Here you can save the names of your books and their authors in a list that you can then share with your acquaintances!
 
 
 ## 🛠 Built With <a name="built-with"></a>
